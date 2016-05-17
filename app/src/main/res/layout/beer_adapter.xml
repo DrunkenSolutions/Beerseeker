@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4">
+
+        <ImageView
+            android:layout_margin="4dp"
+            android:layout_column="0"
+            android:id="@+id/ivBeer"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_column="2"
+            android:layout_columnSpan="2"
+            android:text="TITLE"
+            android:id="@+id/tvBeerTitle"
+            android:layout_marginLeft="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_column="2"
+            android:text="Виробник"
+            android:layout_marginLeft="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+
+            android:id="@+id/tvDeveloper"
+            android:layout_marginLeft="8sp"
+            android:layout_column="3"
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_column="2"
+            android:text="Міцність"
+            android:layout_marginLeft="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvStrength"
+            android:layout_marginLeft="8sp"
+            android:layout_column="3"
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_column="2"
+            android:text="Ціна"
+            android:layout_marginLeft="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_marginLeft="8sp"
+            android:layout_column="3"
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </GridLayout>
+</RelativeLayout>
